@@ -11,7 +11,11 @@
       "name": "AIHC-XAJ-Setup-0.5.1.exe",
       "url": "https://github.com/losnleger/AIHC-XAJ-releases/releases/download/v0.5.1/AIHC-XAJ-Setup-0.5.1.exe",
       "sha256": "6be06f214d763f9a5abf136f97ce459c4fce3592801c99a6e9d04b9d61432c99",
-      "size": 33075151
+      "size": 33075151,
+      "urls": [
+        "https://gitee.com/losnleger/aihc-xaj-releases/releases/download/v0.5.1/AIHC-XAJ-Setup-0.5.1.exe",
+        "https://github.com/losnleger/AIHC-XAJ-releases/releases/download/v0.5.1/AIHC-XAJ-Setup-0.5.1.exe"
+      ]
     }
   ]
 }

@@ -17,3 +17,10 @@ AIHC-XAJ 是 AIHC 开发的新安江（XAJ）水文模型桌面软件：中文�
 模型计算结果仅供参考，用于工程设计、防汛调度或其他决策前，必须由具备资质的专业人员审核。AIHC 不对因使用本软件结果造成的任何损失承担责任。
 
 © 2026 AIHC
+
+## 下载镜像 / Download mirrors
+
+- GitHub：https://github.com/losnleger/AIHC-XAJ-releases/releases
+- Gitee（国内推荐）：https://gitee.com/losnleger/aihc-xaj-releases/releases
+
+两处内容相同，仅含安装程序与许可，不含源代码。校验见 SHA256SUMS.txt。
