@@ -2,19 +2,19 @@
   "schema": 1,
   "product": "AIHC-XAJ",
   "no_release_yet": false,
-  "version": "0.6.0",
+  "version": "0.6.1",
   "released": "2026-10-15",
-  "notes": "AIHC 新安江水文模型软件 v0.6.0（Windows 64 位）\n\n- 由 DEM 自动划分子流域（填洼 → D8 → 流量累积 → 河网 → 集水区）：输出 GeoJSON 与河段表，可导入现有半分布式网络。\n- 支持 ESRI ASCII Grid 与未压缩单波段 GeoTIFF；自实现算法，不依赖 GDAL。\n- 命令行：`xaj delineate <dem> [--threshold N] [--min-area A] [--out DIR]`。\n- 界面：流域网络页「由 DEM 提取子流域…」；「合并子流域…」对直接相连的两个子流域做面积相加、多边形合并与拓扑改接（可撤销）。\n- 检查更新仍支持 GitHub 与 Gitee 双镜像（优先 Gitee）。\n\n下载：AIHC-XAJ-Setup-0.6.0.exe；校验：SHA256SUMS.txt。\n免责声明：水文计算结果须经具备资质的专业人员审查，不能替代官方水文预报。",
+  "notes": "AIHC 新安江水文模型软件 v0.6.1（Windows 64 位）\n\n- 检查更新文案：本机版本高于已发布版本时提示「当前版本 … 新于已发布版本 …，无需更新」（XAJ-I3512）；等于时提示「已是最新发布版本」（XAJ-I3504）。\n- 功能同 0.6.0：DEM 自动划分子流域与合并；GitHub/Gitee 双镜像更新。\n\n下载：AIHC-XAJ-Setup-0.6.1.exe；校验：SHA256SUMS.txt。\n免责声明：水文计算结果须经具备资质的专业人员审查，不能替代官方水文预报。",
   "min_version": "0.5.1",
   "assets": [
     {
-      "name": "AIHC-XAJ-Setup-0.6.0.exe",
-      "url": "https://github.com/losnleger/AIHC-XAJ-releases/releases/download/v0.6.0/AIHC-XAJ-Setup-0.6.0.exe",
-      "sha256": "e58475d4fb455ea127af389514eb7b6cc6e892b1f86fb5d4ebc848897aadb09f",
-      "size": 33118263,
+      "name": "AIHC-XAJ-Setup-0.6.1.exe",
+      "url": "https://github.com/losnleger/AIHC-XAJ-releases/releases/download/v0.6.1/AIHC-XAJ-Setup-0.6.1.exe",
+      "sha256": "f1af476edbbd19f9ac759fe133757c952acda1de99901f2a577e7bed1e433550",
+      "size": 33119200,
       "urls": [
-        "https://gitee.com/losnleger/aihc-xaj-releases/releases/download/v0.6.0/AIHC-XAJ-Setup-0.6.0.exe",
-        "https://github.com/losnleger/AIHC-XAJ-releases/releases/download/v0.6.0/AIHC-XAJ-Setup-0.6.0.exe"
+        "https://gitee.com/losnleger/aihc-xaj-releases/releases/download/v0.6.1/AIHC-XAJ-Setup-0.6.1.exe",
+        "https://github.com/losnleger/AIHC-XAJ-releases/releases/download/v0.6.1/AIHC-XAJ-Setup-0.6.1.exe"
       ]
     }
   ]
