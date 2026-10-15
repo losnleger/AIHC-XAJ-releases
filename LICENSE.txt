@@ -92,16 +92,11 @@ This Agreement is made in Chinese and English. In case of any inconsistency, the
 AIHC 可以为本软件今后的版本采用不同的许可条款（包括收费许可）。许可变更不影响您依本协议对已取得的
 本版本享有的权利。
 
-第十二条 适用法律和争议解决
-本协议的订立、效力、解释、履行和争议解决适用中华人民共和国法律（为本协议之目的，不包括香港特别
-行政区、澳门特别行政区和台湾地区法律），不适用其冲突法规则。因本协议引起或与之有关的争议，双方应
-协商解决；协商不成的，提交【管辖法院或仲裁机构：待填写】解决。
-
-第十三条 其他
-13.1 本协议构成双方就本软件许可达成的完整协议。
-13.2 本协议任何条款被认定无效或不可执行的，不影响其他条款的效力。
-13.3 AIHC 未行使或迟延行使本协议项下任何权利，不构成对该权利的放弃。
-13.4 联系方式：AIHC，【地址：待填写】，【电子邮箱：待填写】。
+第十二条 其他
+12.1 本协议构成双方就本软件许可达成的完整协议。
+12.2 本协议任何条款被认定无效或不可执行的，不影响其他条款的效力。
+12.3 AIHC 未行使或迟延行使本协议项下任何权利，不构成对该权利的放弃。
+12.4 联系方式：AIHC，微信：AIHC-666。
 
 ======================================================================
 English text
@@ -216,18 +211,11 @@ misconduct or gross negligence, or any liability that cannot be excluded or limi
 AIHC may release future versions of the Software under different licence terms (including paid licences).
 Such changes do not affect your rights under this Agreement in the version you have already obtained.
 
-12. Governing Law and Dispute Resolution
-The formation, validity, interpretation, performance and dispute resolution of this Agreement are governed
-by the laws of the People's Republic of China (for the purpose of this Agreement excluding the laws of the
-Hong Kong SAR, the Macao SAR and Taiwan), without regard to its conflict-of-laws rules. Disputes arising out
-of or in connection with this Agreement shall first be settled through negotiation; failing that, they shall
-be submitted to [COURT OR ARBITRATION INSTITUTION: TO BE COMPLETED].
-
-13. Miscellaneous
-13.1 This Agreement constitutes the entire agreement between the parties concerning the licence of the
+12. Miscellaneous
+12.1 This Agreement constitutes the entire agreement between the parties concerning the licence of the
      Software.
-13.2 If any provision of this Agreement is held invalid or unenforceable, the remaining provisions remain in
+12.2 If any provision of this Agreement is held invalid or unenforceable, the remaining provisions remain in
      effect.
-13.3 Failure or delay by AIHC in exercising any right under this Agreement does not constitute a waiver of
+12.3 Failure or delay by AIHC in exercising any right under this Agreement does not constitute a waiver of
      that right.
-13.4 Contact: AIHC, [ADDRESS: TO BE COMPLETED], [E-MAIL: TO BE COMPLETED].
+12.4 Contact: AIHC, WeChat: AIHC-666.

@@ -47,7 +47,7 @@ Full licence texts are in the licenses/ folder (source tree: licenses/; installe
      reverse engineering for debugging such modifications.
    - Source code: the corresponding Qt source code is available at
      https://download.qt.io/official_releases/qt/ and https://code.qt.io/, or on request from AIHC
-     (see licenses/Qt-NOTICE.txt and LICENSE.txt section 13.4) for at least three years.
+     (see licenses/Qt-NOTICE.txt and LICENSE.txt section 12.4) for at least three years.
    - No GPL-only Qt modules are used. Qt Test and the Qt Linguist tools are used at build time only.
 
 ----------------------------------------------------------------------------------------------------
