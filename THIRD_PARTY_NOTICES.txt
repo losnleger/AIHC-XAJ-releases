@@ -1,0 +1,67 @@
+Third-party notices for AIHC-XAJ / AIHC 新安江水文模型软件 第三方组件声明
+AIHC-XAJ is freeware (closed source) of AIHC (see LICENSE.txt). The components and data listed below are NOT
+covered by the AIHC copyright or by the AIHC licence; they are governed by their own licences. Nothing in
+LICENSE.txt restricts the rights granted to you by these licences.
+以下第三方组件和数据不属于 AIHC 的版权范围，也不受 AIHC 许可协议约束，适用其各自的许可证；AIHC 许可协议
+不限制您依这些许可证享有的权利。
+
+Full licence texts are in the licenses/ folder (source tree: licenses/; installed program: {app}\licenses).
+
+----------------------------------------------------------------------------------------------------
+1. nlohmann/json 3.11.3 (header-only, compiled into xaj and xaj-gui)
+   Files: third_party/nlohmann/json.hpp. https://github.com/nlohmann/json
+   SPDX-License-Identifier: MIT. Full text: licenses/nlohmann-json-MIT.txt, reproduced here:
+
+   MIT License
+
+   Copyright (c) 2013-2023 Niels Lohmann <https://nlohmann.me>
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+----------------------------------------------------------------------------------------------------
+2. Qt 6 — Qt Core, Qt Gui, Qt Widgets (desktop GUI xaj-gui only)
+   Copyright (C) The Qt Company Ltd. and other contributors. https://www.qt.io/
+   Licence: GNU Lesser General Public License version 3 (LGPL-3.0-only).
+   Full texts: licenses/LGPL-3.0.txt and licenses/GPL-3.0.txt (the LGPL v3 incorporates the GPL v3).
+   Details: licenses/Qt-NOTICE.txt.
+
+   - Qt is dynamically linked; the Qt libraries are shipped unmodified as separate DLLs/plugins.
+   - Relinking / replacement: you may replace the shipped Qt libraries with a modified or self-built,
+     interface-compatible Qt 6 and use it with xaj-gui. AIHC's licence does not prohibit this, nor
+     reverse engineering for debugging such modifications.
+   - Source code: the corresponding Qt source code is available at
+     https://download.qt.io/official_releases/qt/ and https://code.qt.io/, or on request from AIHC
+     (see licenses/Qt-NOTICE.txt and LICENSE.txt section 13.4) for at least three years.
+   - No GPL-only Qt modules are used. Qt Test and the Qt Linguist tools are used at build time only.
+
+----------------------------------------------------------------------------------------------------
+3. Example data (not software): CAMELS
+   Used in examples/real_camels_* and examples/real_5b. Licence: Creative Commons Attribution 4.0
+   International (CC-BY-4.0), full text licenses/CC-BY-4.0.txt. The data were reformatted (unit
+   conversion, local standard time, daily aggregation, computed PET) — see the README in each folder.
+   Attribution:
+   - Addor, N., Newman, A. J., Mizukami, N., Clark, M. P. (2017): The CAMELS data set: catchment
+     attributes and meteorology for large-sample studies. Hydrol. Earth Syst. Sci. 21, 5293-5313.
+     Data: doi:10.5065/D6MW2F4D.
+   - Newman, A. J. et al. (2015): Development of a large-sample watershed-scale hydrometeorological
+     data set for the contiguous USA. Hydrol. Earth Syst. Sci. 19, 209-223 (CAMELS forcing, streamflow
+     and model output incl. Daymet Priestley-Taylor PET, used for comparison only).
+   - Gauch, M., Kratzert, F., Klotz, D., Nearing, G., Lin, J., Hochreiter, S. (2021): CAMELS hourly
+     (NLDAS-2 hourly forcings and USGS hourly streamflow). doi:10.5281/zenodo.4072701.
+   Underlying sources: NLDAS-2 (NASA GES DISC), Daymet (ORNL DAAC), USGS NWIS streamflow.

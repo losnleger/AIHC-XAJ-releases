@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comment": "PLACEHOLDER - no release yet. Fields: version, released (ISO 8601 date), notes, min_version (oldest version that may auto-update), assets[] {name, url, sha256, size (bytes)}.",
+  "product": "AIHC-XAJ",
+  "no_release_yet": true,
+  "version": null,
+  "released": null,
+  "notes": "尚未发布任何版本 / No release yet.",
+  "min_version": null,
+  "assets": [
+    {
+      "name": "PLACEHOLDER aihc-xaj-<version>-setup-x64.exe",
+      "url": "https://github.com/losnleger/AIHC-XAJ-releases/releases/download/v<version>/aihc-xaj-<version>-setup-x64.exe",
+      "sha256": "",
+      "size": 0
+    }
+  ]
+}

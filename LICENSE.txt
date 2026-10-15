@@ -1,0 +1,233 @@
+AIHC 新安江水文模型软件（AIHC-XAJ）免费软件许可协议
+AIHC XAJ Hydrological Modelling Suite (AIHC-XAJ) — Freeware Licence Agreement
+
+版权所有 (c) 2026 AIHC，保留所有权利。
+Copyright (c) 2026 AIHC. All rights reserved.
+SPDX-License-Identifier: LicenseRef-AIHC-Freeware
+
+本软件为免费软件（闭源）。Freeware (closed source).
+
+本协议以中文和英文两种文本订立。两种文本如有不一致，以中文文本为准。
+This Agreement is made in Chinese and English. In case of any inconsistency, the Chinese text prevails.
+
+======================================================================
+中文文本
+======================================================================
+
+请在安装或使用本软件前仔细阅读本协议。下载、安装、复制或以其他方式使用本软件，即表示您同意受本协议
+约束；如不同意，请勿安装或使用本软件。
+
+第一条 定义
+1.1 “本软件”指 AIHC 新安江水文模型软件（AIHC-XAJ）本版本的可执行程序、库、算例工程、文档和图形界面
+    资源，以及 AIHC 官方发布的安装程序，但不包括第六条所述第三方组件和数据。
+1.2 “AIHC”指本软件的著作权人。
+1.3 “您”指下载、安装或使用本软件的任何个人或单位。
+1.4 “官方安装程序”指 AIHC 发布的、未经任何修改的本软件安装程序或安装包。
+
+第二条 权利保留
+本软件是免费软件，但不是开源软件，也不是公有领域软件。本软件受《中华人民共和国著作权法》、《计算机
+软件保护条例》及相关国际条约保护。本软件系许可使用而非出售。除本协议明确授予的权利外，AIHC 保留对
+本软件的全部权利、所有权和利益，包括全部著作权及其他知识产权。AIHC 不提供本软件的源代码。
+
+第三条 许可授予
+3.1 使用：在您遵守本协议的前提下，AIHC 授予您一项免费的、非独占的、全球范围的许可，可在任意数量的
+    计算机上下载、安装和使用本软件，用于任何目的，包括个人、教学、科研、商业和政府用途。使用本软件
+    无需注册，也无需事先取得 AIHC 的书面许可。
+3.2 再分发：您可以免费向他人提供未经修改的官方安装程序的完整副本，但须保留其中全部版权、许可和
+    第三方声明（包括本协议、THIRD_PARTY_NOTICES.txt 和 licenses/ 目录）。您不得为本软件的分发收取
+    任何费用，不得出售本软件，也不得将本软件与收费产品或收费服务捆绑分发。
+3.3 备份：您可以为备份目的复制本软件。
+
+第四条 限制
+除本协议明确允许、适用法律强制规定不得限制或第六条另有规定的情形外，您不得：
+(a) 修改、翻译、改编本软件或基于本软件制作衍生作品，或修改官方安装程序；
+(b) 对本软件进行反向工程、反编译或反汇编，或以其他方式试图获取其源代码，但适用法律明确允许且不得
+    以合同排除的范围除外；
+(c) 删除、遮盖或修改本软件中或其上的任何版权、商标、许可或其他权利声明，包括 AIHC 名称和标识；
+(d) 以其他名称、品牌或标识发布本软件，或以任何方式暗示本软件由 AIHC 以外的人开发或提供；
+(e) 出售、出租、出借或再许可本软件，或以第 3.2 条以外的方式分发本软件；
+(f) 规避本软件中的任何技术保护措施。
+
+第五条 您的数据和成果
+您输入本软件的数据，以及您使用本软件生成的模拟、率定、预报及其他输出结果（包括工程文件、结果文件、
+图表和报告），其权利归您所有，AIHC 不对其主张任何权利，您可以自由使用（包括商业使用）和发布。输出
+文件中自动写入的软件名称、版本和版权标识仅用于标明生成工具，不构成 AIHC 对该输出内容的权利主张。
+
+第六条 第三方组件和数据
+6.1 本软件包含或使用第三方组件，包括 Qt（依 GNU 宽通用公共许可证第 3 版，即 LGPL v3 使用）和
+    nlohmann/json（依 MIT 许可证使用）。第三方组件适用其各自的许可证，详见随本软件提供的
+    THIRD_PARTY_NOTICES.txt 及 licenses/ 目录中的许可证全文。本协议不适用于第三方组件。
+6.2 对于 Qt 库，本协议的任何条款（包括第三条和第四条）均不限制您依 LGPL v3 享有的权利。特别是：
+    本软件以动态链接方式使用未经修改的 Qt 库；您有权用自行修改或构建的兼容版本替换随本软件提供的
+    Qt 库并与本软件重新链接使用，并有权为调试此类修改而对本软件进行必要的反向工程；Qt 的对应源代码
+    可按 THIRD_PARTY_NOTICES.txt 所述方式获取。AIHC 依 LGPL v3 承担的义务继续有效。
+6.3 随本软件提供的部分算例数据（examples/real_camels_*、examples/real_5b）来自第三方公开数据集
+    CAMELS，依 CC-BY-4.0 许可使用，不属于 AIHC 的版权范围，使用时须遵守其署名要求。其余算例数据为
+    合成数据（SYNTHETIC），不代表任何真实流域。
+
+第七条 科学结果免责声明
+本软件是水文模拟与分析工具。其计算结果取决于输入数据、模型结构、参数和使用者的判断，存在不确定性。
+任何用于防汛、水资源管理、工程设计、调度或其他决策的结果，必须由具有相应资质的专业人员审查和确认。
+本软件的输出不能替代政府主管部门或其授权机构发布的官方水文预报、预警或其他信息。
+
+第八条 不提供担保，不承担支持义务
+8.1 在适用法律允许的最大范围内，本软件免费并按“现状”和“现有”提供，不附带任何明示或默示的担保，
+    包括但不限于对适销性、特定用途适用性、准确性、无错误或不侵权的担保。AIHC 不保证本软件将满足您的
+    要求或运行不中断。
+8.2 AIHC 没有义务提供技术支持、维护、更新、升级或错误修正。AIHC 自愿提供的任何支持或更新不构成
+    此类义务。
+
+第九条 责任限制
+在适用法律允许的最大范围内，AIHC 对因使用或无法使用本软件或其输出结果而引起的任何直接、间接、附带、
+特殊、惩罚性或后果性损害（包括利润损失、数据丢失、业务中断、财产损失或因依赖计算结果所作决策而产生的
+损失）不承担责任，即使已被告知发生此类损害的可能性。如适用法律不允许完全排除责任，AIHC 的累计赔偿
+责任以人民币壹佰元为限。因 AIHC 故意或重大过失造成的损失，以及依法不得排除或限制的责任，不受本条限制。
+
+第十条 终止
+10.1 您违反本协议任何条款的，本协议授予您的权利自动终止，无需 AIHC 另行通知。
+10.2 本协议终止后，您应立即停止使用和分发本软件并删除或销毁全部副本。终止不影响您对第五条所述数据
+     和成果的权利。第二条、第四条至第九条、第十条和第十一条在本协议终止后继续有效。
+
+第十一条 许可变更
+AIHC 可以为本软件今后的版本采用不同的许可条款（包括收费许可）。许可变更不影响您依本协议对已取得的
+本版本享有的权利。
+
+第十二条 适用法律和争议解决
+本协议的订立、效力、解释、履行和争议解决适用中华人民共和国法律（为本协议之目的，不包括香港特别
+行政区、澳门特别行政区和台湾地区法律），不适用其冲突法规则。因本协议引起或与之有关的争议，双方应
+协商解决；协商不成的，提交【管辖法院或仲裁机构：待填写】解决。
+
+第十三条 其他
+13.1 本协议构成双方就本软件许可达成的完整协议。
+13.2 本协议任何条款被认定无效或不可执行的，不影响其他条款的效力。
+13.3 AIHC 未行使或迟延行使本协议项下任何权利，不构成对该权利的放弃。
+13.4 联系方式：AIHC，【地址：待填写】，【电子邮箱：待填写】。
+
+======================================================================
+English text
+======================================================================
+
+Please read this Agreement carefully before installing or using the Software. By downloading, installing,
+copying or otherwise using the Software you agree to be bound by this Agreement. If you do not agree, do
+not install or use the Software.
+
+1. Definitions
+1.1 "Software" means this version of the AIHC XAJ Hydrological Modelling Suite (AIHC-XAJ), including the
+    executable programs, libraries, example projects, documentation and user-interface resources, and the
+    installer officially released by AIHC, excluding the third-party components and data described in
+    Section 6.
+1.2 "AIHC" means the copyright owner of the Software.
+1.3 "You" means any individual or entity that downloads, installs or uses the Software.
+1.4 "Official Installer" means the unmodified installer or installation package of the Software released
+    by AIHC.
+
+2. Reservation of Rights
+The Software is freeware; it is neither open-source software nor in the public domain. It is protected by
+the Copyright Law of the People's Republic of China, the Regulations on the Protection of Computer Software
+and applicable international treaties. The Software is licensed, not sold. Except for the rights expressly
+granted in this Agreement, AIHC reserves all right, title and interest in and to the Software, including
+all copyright and other intellectual property rights. AIHC does not provide the source code of the
+Software.
+
+3. Grant of Licence
+3.1 Use: subject to your compliance with this Agreement, AIHC grants you a free of charge, non-exclusive,
+    worldwide licence to download, install and use the Software on any number of computers for any
+    purpose, including personal, educational, research, commercial and government use. No registration
+    and no prior written permission from AIHC are required.
+3.2 Redistribution: you may give complete copies of the unmodified Official Installer to others free of
+    charge, provided that all copyright, licence and third-party notices (including this Agreement,
+    THIRD_PARTY_NOTICES.txt and the licenses/ folder) are kept intact. You may not charge any fee for
+    distributing the Software, sell it, or bundle it with any product or service for which a fee is
+    charged.
+3.3 Backup: you may copy the Software for backup purposes.
+
+4. Restrictions
+Except as expressly permitted by this Agreement, by applicable mandatory law, or by Section 6, you shall not:
+(a) modify, translate or adapt the Software, create derivative works based on it, or modify the Official
+    Installer;
+(b) reverse engineer, decompile or disassemble the Software or otherwise attempt to derive its source code,
+    except to the extent that applicable law expressly permits such activity notwithstanding this
+    limitation;
+(c) remove, obscure or alter any copyright, trademark, licence or other proprietary notice in or on the
+    Software, including the AIHC name and marks;
+(d) publish the Software under another name, brand or mark, or in any way suggest that the Software is
+    developed or provided by anyone other than AIHC;
+(e) sell, rent, lend or sublicense the Software, or distribute it other than as permitted in Section 3.2;
+(f) circumvent any technical protection measure of the Software.
+
+5. Your Data and Outputs
+The data you enter into the Software and the simulation, calibration, forecast and other outputs you
+produce with it (including project files, result files, charts and reports) belong to you; AIHC claims no
+rights in them and you may use (including commercially) and publish them freely. The software name, version
+and copyright marks written automatically into output files only identify the generating tool and do not
+constitute a claim by AIHC to the content of those outputs.
+
+6. Third-Party Components and Data
+6.1 The Software contains or uses third-party components, including Qt (used under the GNU Lesser General
+    Public License version 3, "LGPL v3") and nlohmann/json (used under the MIT License). Third-party
+    components are governed by their own licences; see THIRD_PARTY_NOTICES.txt and the full licence texts
+    in the licenses/ folder supplied with the Software. This Agreement does not apply to third-party
+    components.
+6.2 With respect to the Qt libraries, nothing in this Agreement (including Sections 3 and 4) restricts your
+    rights under the LGPL v3. In particular: the Software uses unmodified Qt libraries through dynamic
+    linking; you may replace the Qt libraries supplied with the Software by a modified or self-built
+    compatible version and relink it with the Software, and you may reverse engineer the Software to the
+    extent necessary for debugging such modifications; the corresponding Qt source code can be obtained as
+    described in THIRD_PARTY_NOTICES.txt. AIHC's obligations under the LGPL v3 remain in effect.
+6.3 Part of the example data supplied with the Software (examples/real_camels_*, examples/real_5b) comes
+    from the third-party public dataset CAMELS, used under CC-BY-4.0; it is not covered by AIHC's
+    copyright and its attribution requirements must be observed. All other example data are SYNTHETIC and
+    do not describe any real basin.
+
+7. Scientific Results Disclaimer
+The Software is a tool for hydrological simulation and analysis. Its results depend on input data, model
+structure, parameters and user judgement, and are uncertain. Any result used for flood control, water
+resources management, engineering design, operation or other decisions must be reviewed and confirmed by
+appropriately qualified professionals. Outputs of the Software are not a substitute for official
+hydrological forecasts, warnings or other information issued by competent government authorities or the
+agencies authorized by them.
+
+8. No Warranty, No Support Obligation
+8.1 To the maximum extent permitted by applicable law, the Software is provided free of charge "AS IS" and
+    "AS AVAILABLE", without warranty of any kind, express or implied, including but not limited to
+    warranties of merchantability, fitness for a particular purpose, accuracy, freedom from errors or
+    non-infringement. AIHC does not warrant that the Software will meet your requirements or operate
+    without interruption.
+8.2 AIHC has no obligation to provide technical support, maintenance, updates, upgrades or error
+    corrections. Any support or update that AIHC chooses to provide does not create such an obligation.
+
+9. Limitation of Liability
+To the maximum extent permitted by applicable law, AIHC shall not be liable for any direct, indirect,
+incidental, special, punitive or consequential damages (including loss of profits, loss of data, business
+interruption, property damage, or losses arising from decisions made in reliance on computed results)
+arising out of the use of or inability to use the Software or its outputs, even if advised of the
+possibility of such damages. Where applicable law does not allow a complete exclusion, AIHC's aggregate
+liability is limited to RMB 100. This Section does not limit liability for losses caused by AIHC's wilful
+misconduct or gross negligence, or any liability that cannot be excluded or limited by law.
+
+10. Termination
+10.1 If you breach any term of this Agreement, the rights granted to you terminate automatically without
+     notice from AIHC.
+10.2 Upon termination you shall immediately stop using and distributing the Software and delete or destroy
+     all copies. Termination does not affect your rights in the data and outputs described in Section 5.
+     Sections 2, 4 to 9, 10 and 11 survive termination.
+
+11. Changes to the Licence
+AIHC may release future versions of the Software under different licence terms (including paid licences).
+Such changes do not affect your rights under this Agreement in the version you have already obtained.
+
+12. Governing Law and Dispute Resolution
+The formation, validity, interpretation, performance and dispute resolution of this Agreement are governed
+by the laws of the People's Republic of China (for the purpose of this Agreement excluding the laws of the
+Hong Kong SAR, the Macao SAR and Taiwan), without regard to its conflict-of-laws rules. Disputes arising out
+of or in connection with this Agreement shall first be settled through negotiation; failing that, they shall
+be submitted to [COURT OR ARBITRATION INSTITUTION: TO BE COMPLETED].
+
+13. Miscellaneous
+13.1 This Agreement constitutes the entire agreement between the parties concerning the licence of the
+     Software.
+13.2 If any provision of this Agreement is held invalid or unenforceable, the remaining provisions remain in
+     effect.
+13.3 Failure or delay by AIHC in exercising any right under this Agreement does not constitute a waiver of
+     that right.
+13.4 Contact: AIHC, [ADDRESS: TO BE COMPLETED], [E-MAIL: TO BE COMPLETED].
