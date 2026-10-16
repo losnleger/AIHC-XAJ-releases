@@ -2,19 +2,19 @@
   "schema": 1,
   "product": "AIHC-XAJ",
   "no_release_yet": false,
-  "version": "0.6.3",
+  "version": "0.6.4",
   "released": "2026-10-16",
-  "notes": "- 修正：半分布式工程「应用率定结果」后（按参数组区域化，各子流域有各自的 Nash / 滞时汇流参数），共享初始状态的汇流缓冲区长度不匹配导致模拟被拒绝（XAJ-E0203）；现自动为各子流域生成稳态缓冲区。\n- DEM：可读取 GDAL 生成的 GeoTIFF（含条带 SHORT 型标签）；平坦区填洼（Priority-Flood + 微小坡降）；内部洼坑（如采石坑）不再被当作流域出口。\n- 中文路径：工程、率定结果在含中文的路径下可正常读写（UTF-8 路径修正）；时间戳统一为 UTC。\n- 率定目标新增 `event_NSE` / `event_KGE`（按洪水场次计算），支持多场洪水联合率定。\n- 流域网络地图：DEM 晕渲底图 + 子流域多边形显示。\n- 新增真实流域示例 USGS 02206500（Yellow River near Snellville, GA，352 km²）：DEM 自动划分、14 个雨量站泰森面雨量、多场洪水率定与独立检验；操作演示改用该流域。",
+  "notes": "- 操作演示（`--tutorial-live-calibration`）：现场 SCE-UA 改为对本教程窗口（含 6 月洪水）率定，目标 `event_NSE`/`event_peak`，自由参数含 Nash 与 CG/CS/IM；默认 2×12000 次评价，使屏幕上窗口/场次 NSE 可达 0.7 以上。\n- 现场率定字幕改为「本窗口现场 SCE-UA 率定…」，与载入已率定结果时的「检验（未参与率定）」区分。\n- 其余同 0.6.3（含 02206500 示例、应用率定后汇流缓冲区修正、GDAL GeoTIFF / 平坦区 / 洼坑出口、中文路径、`event_NSE`）。",
   "min_version": "0.5.1",
   "assets": [
     {
-      "name": "AIHC-XAJ-Setup-0.6.3.exe",
-      "url": "https://gitee.com/losnleger/aihc-xaj-releases/releases/download/v0.6.3/AIHC-XAJ-Setup-0.6.3.exe",
-      "sha256": "7e1f143b3e9e541fbfee72dadd21719c131a2b5492ec8fe04d6a5a63ee4321f5",
-      "size": 34292937,
+      "name": "AIHC-XAJ-Setup-0.6.4.exe",
+      "url": "https://gitee.com/losnleger/aihc-xaj-releases/releases/download/v0.6.4/AIHC-XAJ-Setup-0.6.4.exe",
+      "sha256": "0916a25e0f3bd8d4e6a57d0b49b7f981d9cc1651195060690f8409e91a0e102a",
+      "size": 34295591,
       "urls": [
-        "https://gitee.com/losnleger/aihc-xaj-releases/releases/download/v0.6.3/AIHC-XAJ-Setup-0.6.3.exe",
-        "https://github.com/losnleger/AIHC-XAJ-releases/releases/download/v0.6.3/AIHC-XAJ-Setup-0.6.3.exe"
+        "https://gitee.com/losnleger/aihc-xaj-releases/releases/download/v0.6.4/AIHC-XAJ-Setup-0.6.4.exe",
+        "https://github.com/losnleger/AIHC-XAJ-releases/releases/download/v0.6.4/AIHC-XAJ-Setup-0.6.4.exe"
       ]
     }
   ]
