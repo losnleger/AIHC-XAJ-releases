@@ -2,19 +2,19 @@
   "schema": 1,
   "product": "AIHC-XAJ",
   "no_release_yet": false,
-  "version": "0.6.4",
-  "released": "2026-10-16",
-  "notes": "- 操作演示（`--tutorial-live-calibration`）：现场 SCE-UA 改为对本教程窗口（含 6 月洪水）率定，目标 `event_NSE`/`event_peak`，自由参数含 Nash 与 CG/CS/IM；默认 2×12000 次评价，使屏幕上窗口/场次 NSE 可达 0.7 以上。\n- 现场率定字幕改为「本窗口现场 SCE-UA 率定…」，与载入已率定结果时的「检验（未参与率定）」区分。\n- 其余同 0.6.3（含 02206500 示例、应用率定后汇流缓冲区修正、GDAL GeoTIFF / 平坦区 / 洼坑出口、中文路径、`event_NSE`）。",
+  "version": "0.6.5",
+  "released": "2026-10-19",
+  "notes": "- 关于对话框与 README：补充新安江模型文献致谢（赵人俊，1984；Zhao R.-J., 1992, Journal of Hydrology），不写软件著作权自夸句。\n- 界面：切换「数据 / 参数 / 汇流 / 初始状态 / 率定 / 结果 / 流域网络」等功能页时，不再残留上一页残影（页根与滚动视口不透明填充）。\n- Windows：开发构建与安装包均部署 Qt `qmodernwindowsstyle`（Windows11）样式插件，工具栏与按钮外观与正式安装版一致，避免私有构建回退为经典样式。\n- 其余同 0.6.4。",
   "min_version": "0.5.1",
   "assets": [
     {
-      "name": "AIHC-XAJ-Setup-0.6.4.exe",
-      "url": "https://gitee.com/losnleger/aihc-xaj-releases/releases/download/v0.6.4/AIHC-XAJ-Setup-0.6.4.exe",
-      "sha256": "0916a25e0f3bd8d4e6a57d0b49b7f981d9cc1651195060690f8409e91a0e102a",
-      "size": 34295591,
+      "name": "AIHC-XAJ-Setup-0.6.5.exe",
+      "url": "https://gitee.com/losnleger/aihc-xaj-releases/releases/download/v0.6.5/AIHC-XAJ-Setup-0.6.5.exe",
+      "sha256": "0897b24bc29e33ee2f5ab1a399654fcbbc1124d995e6d5291c1fec364104305b",
+      "size": 34296188,
       "urls": [
-        "https://gitee.com/losnleger/aihc-xaj-releases/releases/download/v0.6.4/AIHC-XAJ-Setup-0.6.4.exe",
-        "https://github.com/losnleger/AIHC-XAJ-releases/releases/download/v0.6.4/AIHC-XAJ-Setup-0.6.4.exe"
+        "https://gitee.com/losnleger/aihc-xaj-releases/releases/download/v0.6.5/AIHC-XAJ-Setup-0.6.5.exe",
+        "https://github.com/losnleger/AIHC-XAJ-releases/releases/download/v0.6.5/AIHC-XAJ-Setup-0.6.5.exe"
       ]
     }
   ]
