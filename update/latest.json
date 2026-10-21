@@ -2,19 +2,19 @@
   "schema": 1,
   "product": "AIHC-XAJ",
   "no_release_yet": false,
-  "version": "0.6.6",
-  "released": "2026-10-19",
-  "notes": "- 界面：结果页（及地图等自绘区）切换后不再透出上一页残影；过程线 / 网络地图先画到不透明 RGB32 再贴屏。\n- 其余同 0.6.5（文献致谢、功能页残影修复基线、Windows11 样式插件）。",
+  "version": "0.6.7",
+  "released": "2026-10-21",
+  "notes": "- 流域网络地图：DEM 底图升级为地形色带 + 晕渲、青色子流域边界和双层 D8 河网；新增高程色标、北箭头、DEM 来源、子流域数和河网阈值信息。\n- GIS 算法与输出保持不变；本版本仅升级地图渲染与可读性。",
   "min_version": "0.5.1",
   "assets": [
     {
-      "name": "AIHC-XAJ-Setup-0.6.6.exe",
-      "url": "https://gitee.com/losnleger/aihc-xaj-releases/releases/download/v0.6.6/AIHC-XAJ-Setup-0.6.6.exe",
-      "sha256": "b3cb0348f6ff73ecb8669523be5032b8d6e1b5cc09a170895159681ffd4799c9",
-      "size": 34297520,
+      "name": "AIHC-XAJ-Setup-0.6.7.exe",
+      "url": "https://gitee.com/losnleger/aihc-xaj-releases/releases/download/v0.6.7/AIHC-XAJ-Setup-0.6.7.exe",
+      "sha256": "5add8a8e58ead3b540d84e3c406532fddb35566ada488f7ad179ddcb9f9afe52",
+      "size": 35986583,
       "urls": [
-        "https://gitee.com/losnleger/aihc-xaj-releases/releases/download/v0.6.6/AIHC-XAJ-Setup-0.6.6.exe",
-        "https://github.com/losnleger/AIHC-XAJ-releases/releases/download/v0.6.6/AIHC-XAJ-Setup-0.6.6.exe"
+        "https://gitee.com/losnleger/aihc-xaj-releases/releases/download/v0.6.7/AIHC-XAJ-Setup-0.6.7.exe",
+        "https://github.com/losnleger/AIHC-XAJ-releases/releases/download/v0.6.7/AIHC-XAJ-Setup-0.6.7.exe"
       ]
     }
   ]
