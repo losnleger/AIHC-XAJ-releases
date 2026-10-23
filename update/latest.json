@@ -2,19 +2,19 @@
   "schema": 1,
   "product": "AIHC-XAJ",
   "no_release_yet": false,
-  "version": "0.6.7",
-  "released": "2026-10-21",
-  "notes": "- 流域网络地图：DEM 底图升级为地形色带 + 晕渲、青色子流域边界和双层 D8 河网；新增高程色标、北箭头、DEM 来源、子流域数和河网阈值信息。\n- GIS 算法与输出保持不变；本版本仅升级地图渲染与可读性。",
+  "version": "0.8.1",
+  "released": "2026-10-23",
+  "notes": "- 核心模型重构（Exact 管线模块化）：将三水源新安江模型单步计算拆分为三层蒸散发、蓄满产流、张力水更新、自由水自适应子步分离及三水源坡面—河道汇流 5 个独立内部阶段。\n- 数值完全一致：通过全部 32 项自动化回归测试与 2000 步 Exact 黄金对照测试，模拟输出与 0.6.7 完全一致。\n- 构建体验改进：Windows 构建目录自动部署 Qt 运行时依赖。",
   "min_version": "0.5.1",
   "assets": [
     {
-      "name": "AIHC-XAJ-Setup-0.6.7.exe",
-      "url": "https://gitee.com/losnleger/aihc-xaj-releases/releases/download/v0.6.7/AIHC-XAJ-Setup-0.6.7.exe",
-      "sha256": "5add8a8e58ead3b540d84e3c406532fddb35566ada488f7ad179ddcb9f9afe52",
-      "size": 35986583,
+      "name": "AIHC-XAJ-Setup-0.8.1.exe",
+      "url": "https://gitee.com/losnleger/aihc-xaj-releases/releases/download/v0.8.1/AIHC-XAJ-Setup-0.8.1.exe",
+      "sha256": "a4f45cf8bee31fe5b29d67ba4a8d6a5a9abe59501d513cef4e56d042669776e8",
+      "size": 35985159,
       "urls": [
-        "https://gitee.com/losnleger/aihc-xaj-releases/releases/download/v0.6.7/AIHC-XAJ-Setup-0.6.7.exe",
-        "https://github.com/losnleger/AIHC-XAJ-releases/releases/download/v0.6.7/AIHC-XAJ-Setup-0.6.7.exe"
+        "https://gitee.com/losnleger/aihc-xaj-releases/releases/download/v0.8.1/AIHC-XAJ-Setup-0.8.1.exe",
+        "https://github.com/losnleger/AIHC-XAJ-releases/releases/download/v0.8.1/AIHC-XAJ-Setup-0.8.1.exe"
       ]
     }
   ]
